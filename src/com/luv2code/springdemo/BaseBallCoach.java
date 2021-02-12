@@ -5,11 +5,12 @@ public class BaseBallCoach implements Coach {
     private FortuneService fortuneService;
 
     //define a constructor for dependency injection
-    public BaseBallCoach(FortuneService theFortuneService){
+    public BaseBallCoach(FortuneService theFortuneService) {
         fortuneService = theFortuneService;
     }
+
     @Override
-    public String getDailyWorkout(){
+    public String getDailyWorkout() {
         return "spend 30 mins on batting practice";
     }
 
