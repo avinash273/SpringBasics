@@ -33,6 +33,10 @@
         <property name="emailAddress" value="${foo.email}"></property>
         <property name="team" value="${foo.team}"></property>
 
+        <!-- init-method="doMyStuffHere" & destroy-method="endMyStuffHere"
+        These two are methods declared inside com.luv2code.springdemo.CricketCoach
+        -->
+
     </bean>
 
 </beans>
